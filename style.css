@@ -1,0 +1,849 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.go{
+    border: 1px solid #E9E9E9;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-top: 26px;
+}
+.menu{
+    width: 50%;
+}
+.menutx{
+    font-weight: 400;
+font-size: 13px;
+line-height: 26px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.08em;
+
+color: #262626;
+margin-left: 27px;
+margin-top: 37px;
+}
+.logo{
+    width: 100%;
+    margin-top: 32px;
+}
+.karz{
+    font-weight: 400;
+font-size: 13px;
+line-height: 26px;
+/* or 200% */
+
+letter-spacing: 0.08em;
+
+color: #262626;
+padding-right: 15px;
+}
+.karzinka{
+    margin-right: 5px;
+    border: 1px solid #E9E9E9;
+    width: 48px;
+    height: 48px;
+    margin-top: 26px;
+    background-color: transparent;
+    border-radius: 500%;
+}
+.df{
+    width: 100%;
+    text-align: end;
+    margin-bottom: 25px;
+}
+.uzun{
+    font-weight: 700;
+font-size: 13px;
+line-height: 26px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 0.08em;
+
+color: #262626;
+}
+.df2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.kor{
+    font-weight: 400;
+font-size: 13px;
+line-height: 26px;
+/* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 0.08em;
+
+color: #262626;
+margin-top: 37px;
+}
+.h11{
+    font-weight: 700;
+font-size: 38px;
+line-height: 48px;
+/* or 126% */
+
+letter-spacing: 0.03em;
+
+color: #262626;
+height: 164px;
+}
+.pol{
+    font-weight: 400;
+font-size: 13px;
+line-height: 26px;
+/* or 200% */
+
+letter-spacing: 0.08em;
+
+color: #7A7A7A;
+margin-top: 37px;
+padding-right: 17px;
+padding-bottom: 56px;
+}
+.df3{
+    width: 100%;
+    height: 145px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+.lor{
+    font-weight: 700;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+
+color: #262626;
+
+}
+.rek{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+margin-bottom: 0;
+
+color: #A86D06;
+
+}
+.df4{
+    margin-top: 43px;
+    display: flex;
+    height: 28px;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+}
+.lol{
+    margin-left: 83px;
+    margin-right: 180px;
+}
+.kat{
+    width: 100%;
+    margin-top: 60px;
+}
+.lor2{
+    font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+
+color: #262626;
+
+}
+.df5{
+    display: flex;
+    margin-top: 29px;
+    gap: 21px;
+}
+.kray{
+    width: 100%;
+    margin-top: 48px;
+}
+.left{
+    font-weight: 400;
+font-size: 15px;
+line-height: 29px;
+/* identical to box height, or 193% */
+
+
+color: #7A7A7A;
+margin-top: 15px;
+}
+.lor3{
+    font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+
+color: #262626;
+margin-top: 36px;
+}
+.lor4{
+    font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+
+color: #262626;
+padding-top: 50px;
+padding-bottom: 54px;
+}
+.pos{
+    font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+/* identical to box height, or 136% */
+
+
+color: #262626;
+margin-top: 46px;
+padding-bottom: 15px;
+}
+.lor5{
+    font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+
+color: #262626;
+padding-bottom: 75px;
+}
+.vid{
+    width: 100%;
+}
+.lor6{
+    margin-left: 95px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+
+color: #262626;
+margin-top: 65px;
+}
+.pos2{
+    margin-left: 95px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.left2{
+    font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+text-align: right;
+letter-spacing: 0.02em;
+margin-top: 15px;
+color: #7A7A7A;
+
+}
+.left3{
+    font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.02em;
+margin-top: 15px;
+color: #7A7A7A;
+
+}
+.lo{
+    width: 100%;
+    height: 331px;
+}
+.dov{
+    padding-bottom: 43px;
+}
+.ml{
+    margin-top: 50px;
+    padding-bottom: 40px;
+    font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+/* identical to box height, or 136% */
+
+
+color: #262626;
+}
+.video{
+    width: 100%;
+    padding-bottom: 96px;
+}
+.lor7{
+    font-weight: 400;
+font-size: 17px;
+line-height: 28px;
+/* or 175% */
+
+
+color: rgba(38, 38, 38, 0.8);
+margin-top: 45px;
+}
+.lor8{
+    font-weight: 400;
+font-size: 17px;
+line-height: 28px;
+/* or 175% */
+
+
+color: rgba(38, 38, 38, 0.8);
+margin-top: 45px;
+padding-bottom: 110px;
+}
+.kakoy{
+    width: 33%;
+    background: linear-gradient(0deg, #F2EADB, #F2EADB);
+    margin-top: 60px;
+}
+.oyoq{
+    width: 100%;
+    height: 347px;
+}
+.uwu{
+    font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+
+color: #262626;
+margin-left: 50px;
+margin-top: 64px;
+padding-bottom: 64px;
+}
+.df0{
+    display: flex;
+}
+.cccr{
+    margin-top: 40px;
+    width: 100%;
+}
+.bek{
+    background: #F2EADB;
+    width: 100%;
+    text-align: center;
+    height: 254px;
+    margin-bottom: 67px;
+    margin-top: 72px;
+}
+.sure{
+    font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+/* or 155% */
+margin-top: 46px;
+
+
+color: rgba(38, 38, 38, 0.8);
+
+}
+.str{
+    margin-top: 30px;
+}
+.lop{
+    font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+/* identical to box height, or 136% */
+
+
+color: #262626;
+margin-top: 44px;
+}
+.lor8{
+    font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+
+color: #262626;
+height: 145px;
+margin-top: 27px;
+}
+.log{
+    font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+
+color: #262626;
+margin-top: 1px;
+padding-bottom: 54px;
+}
+.go1{
+    font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* identical to box height, or 161% */
+padding-right: 18px;
+
+color: #A86D06;
+
+}
+.pop{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    background: #F2EADB;
+    height: 64px;
+    align-items: center;
+}
+.go1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    padding-right: 85px;
+    color: #A86D06;
+    margin-top: 30px;
+}
+.pop2{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    background: #FBF8F5;
+    height: 64px;
+    margin-top: 6px;
+    align-items: center;
+}
+.go2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    padding-right: 125px;
+    color: #000000;
+    margin-top: 30px;
+}
+.go3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    padding-right: 80px;
+    color: #000000;
+    margin-top: 30px;
+}
+.go4{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    padding-right: 65px;
+    color: #000000;
+    margin-top: 30px;
+}
+.go5{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    padding-right: 80px;
+    color: #000000;
+    margin-top: 30px;
+}
+.go6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    padding-right: 80px;
+    color: #000000;
+    margin-top: 30px;
+}
+.pok{
+    font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* identical to box height, or 161% */
+padding-right: 150px;
+margin-top: 30px;
+color: #A7A7A7;
+
+}
+.pozi{
+    font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+margin-top: 46px;
+color: #262626;
+}
+.karobka{
+    width: 100%;
+    margin-top: 50px;
+}
+.pozis{
+    font-weight: 700;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+
+color: #262626;
+margin-top: 50px;
+}
+.los{
+    font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+/* identical to box height, or 136% */
+
+
+color: #262626;
+padding-bottom: 42px;
+margin-top: 42px;
+}
+.card1{
+    width: 25%;
+    text-align: center;
+}
+.dok{
+    width: 100%;
+}
+.btn1{
+    font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height, or 138% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #7A7A7A;
+padding: 6px 9px;
+background: #F2EADB;
+border-radius: 3px;
+border: none;
+margin-top: 10px;
+margin-bottom: 9px;
+}
+.tdt{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #262626;
+margin-bottom: 15px;
+
+}
+.money{
+    padding-bottom: 30px;
+    width: 100%;
+    font-weight: 700;
+font-size: 19px;
+line-height: 26px;
+/* identical to box height, or 137% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #262626;
+
+}
+.dfc{
+    display: flex;
+}
+.list_item{
+    margin-top: 45px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+color: rgba(38, 38, 38, 0.8);
+
+}
+.io{
+    font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* or 138% */
+
+letter-spacing: 0.03em;
+
+color: #262626;
+margin-top: 100px;
+padding-bottom: 10px;
+}
+.kok{
+    height: 500px;
+    width: 100%;
+    margin-top: 70px;
+}
+.oy{
+    width: 100%;
+    margin-top: 50px;
+}
+.dfs{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 81px;
+    margin-top: 80px;
+    gap: 16px;
+}
+.glav{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+letter-spacing: 0.02em;
+
+color: #262626;
+margin-top: 60px;
+padding-bottom: 15px;
+}
+.mel{
+    font-weight: 400;
+font-size: 13px;
+line-height: 26px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.02em;
+
+color: #262626;
+margin-top: 15px;
+}
+.tg{
+    margin-top: 118px;
+}
+.glav3{
+    font-weight: 400;
+font-size: 13px;
+line-height: 26px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.02em;
+
+color: #262626;
+
+}
+.mel2{
+    font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+/* or 123% */
+
+letter-spacing: 0.02em;
+
+color: #7A7A7A;
+
+}
+.maz{
+    font-weight: 400;
+font-size: 13px;
+line-height: 26px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.02em;
+
+color: #7A7A7A;
+margin-top: 45px;   
+}
+.visa{
+    margin-top: 45px;
+}
+.dfg{
+    display: flex;
+}
+@media(max-width: 575px){
+    .logo {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .h11 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 48px;
+        letter-spacing: 0.03em;
+        color: #262626;
+        height: 300px;
+        text-align: center;
+    }
+    .df3{
+        background: #FBF8F5;
+    }
+    .p{
+        width: 20%;
+    }
+    .lor2 {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 29px;
+        color: #262626;
+    }
+    .w100{
+        width: 100%;
+        text-align: center;
+    }
+    .lor3 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 29px;
+        color: #262626;
+        margin-top: 36px;
+        text-align: center;
+    }
+    .pos {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 38px;
+        color: #262626;
+        margin-top: 46px;
+        padding-bottom: 15px;
+    }
+    .lor5 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #262626;
+        padding-bottom: 50px;
+    }
+    .lor6 {
+        margin-left: 0;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        color: #262626;
+        margin-top: 40px;
+    }
+    .pos2 {
+        margin-left: 0;
+        margin-top: 15px;
+        padding-bottom: 30px;
+    }
+    .lor7 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 28px;
+        color: rgba(38, 38, 38, 0.8);
+        margin-top: 30px;
+    }
+    .lor8 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 29px;
+        color: #262626;
+        /* height: 0; */
+        margin-top: 27px;
+    }
+    .kakoy {
+        width: 100%;
+        background: linear-gradient(0deg, #F2EADB, #F2EADB);
+        margin-top: 60px;
+    }
+    .uwu {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 29px;
+        color: #262626;
+        margin-left: 50px;
+        margin-top: 64px;
+        padding-bottom: 64px;
+    }
+    .cccr {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .sure {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 34px;
+        margin-top: 20px;
+        color: rgba(38, 38, 38, 0.8);
+    }
+    .log {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        color: #262626;
+        margin-top: 80px;
+        padding-bottom: 54px;
+    }
+    .card1 {
+        width: 100%;
+        text-align: center;
+    }
+    .io {
+        text-align: center;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: 0.03em;
+        color: #262626;
+        margin-top: 30px;
+        padding-bottom: 0px;
+    }
+    .kok {
+        height: 350px;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .dfs {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 20px;
+        margin-top: 30px;
+        gap: 16px;
+        padding-bottom: 20px;
+    }
+    .dfca{
+        display: flex;
+    }.tg {
+        margin-top: 62px;
+    }
+    .maz {
+        font-weight: 400;
+        font-size: 7px;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        color: #7A7A7A;
+        margin-top: 45px;
+    }
+    .visa {
+        margin-top: 45px;
+        width: 100%;
+    }
+    .go1 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        padding-right: 70px;
+        color: #A86D06;
+        margin-top: 20px;
+    }
+    .go6 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        padding-right: 50px;
+        color: #000000;
+        margin-top: 30px;
+    }
+}
